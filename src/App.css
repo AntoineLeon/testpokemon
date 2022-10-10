@@ -1,0 +1,100 @@
+.App-header {
+    background-color: #282c34;
+    display: flex;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+button {
+    padding: 16px;
+    cursor: pointer;
+}
+
+#create-pokemon {
+    background-color: #fff;
+    border: 1px solid;
+}
+
+#save-pokemon {
+    width: 200px;
+    background-color: #6d6b6b;
+    border: none;
+    color: white;
+}
+
+
+.input-group-addon {
+    font-size: 14px;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: table-cell;
+    border: 1px solid black;
+    border-left: none !important;
+    margin-left: 5px;
+    width: 1px;
+    padding: 8px;
+}
+
+.suffix {
+    width: 100%;
+    float: left;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    border-right: none !important;
+
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    height: 45px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+label {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    height: calc(100% - 53px);
+    box-sizing: border-box;
+    border-color: black;
+}
+
+.radioType input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+
+.radioType label {
+    display: inline-block;
+    padding: 12px 32px;
+    font-family: sans-serif, Arial;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.radioType input[type="radio"]:checked + label {
+    background-color: #6d6b6b;
+    color: white;
+}
+
+.radioType label:hover {
+    background-color: lightgray;
+}
